@@ -48,10 +48,11 @@ def run(songs)
     case usr_response
     when "help"
       help
+      u
     else
       puts "Please enter a command:"
-      usr_response = gets.chomp
     end
+    usr_response = gets.chomp
   end
   exit_jukebox
 end
