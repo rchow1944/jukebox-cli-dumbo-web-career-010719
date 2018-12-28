@@ -48,7 +48,6 @@ def run(songs)
     case usr_response
     when "help"
       help
-      u
     else
       puts "Please enter a command:"
     end
